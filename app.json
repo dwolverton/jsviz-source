@@ -1,0 +1,5 @@
+{
+  "name": "jsviz-source",
+  "description": "App for providing JS-Viz source JSON",
+  "image": "heroku/nodejs"
+}

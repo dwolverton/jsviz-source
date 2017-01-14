@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>JSViz Source</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body ng-app="jsVizSource" ng-controller="main">
+    <div>
+        <h3>Start</h3>
+        <textarea ng-model="start.text" ng-change="update()" ng-class="start.valid ? 'valid' : 'invalid'">{}</textarea>
+        <h3>Goal</h3>
+        <textarea ng-model="goal.text" ng-change="update()" ng-class="goal.valid ? 'valid' : 'invalid'">{}</textarea>
+        <p>
+            <a href="https://dwolverton.github.io/jsviz/apps/practice/#?sourceUrl=https:%2F%2Fdwolverton.github.io%2Fjsviz-source%2Fproblems.json" target="_blank">https://dwolverton.github.io/jsviz/apps/practice/#?sourceUrl=https:%2F%2Fdwolverton.github.io%2Fjsviz-source%2Fproblems.json</a>
+        </p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

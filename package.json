@@ -1,0 +1,16 @@
+{
+  "name": "jsviz-source",
+  "version": "0.1.0",
+  "description": "App for providing JS-Viz source JSON",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+      "express": "^4.14.0",
+      "body-parser": "^1.15.2"
+  }
+}
